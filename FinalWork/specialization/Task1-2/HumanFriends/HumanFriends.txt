@@ -1,0 +1,6 @@
+1 Dogs
+2 Cats
+3 Hamsters
+4 Horses
+5 Camels
+6 Donkeys
