@@ -1,0 +1,78 @@
+465  history
+
+  466  apt update
+
+  467  mkdir GB
+
+  468  cd GB
+
+  469  mkdir ControlWork
+
+  470  cd ControlWork/
+
+  471  cat > Pets.txt
+
+  472  cat  Pets.txt
+
+  473  rm Pets.txt 
+
+  474  cat > Pets.txt
+
+  475  cat  Pets.txt
+
+  476  ehco Pets.txt 
+
+  477  cat Pets.txt
+
+  478  cat > PackAnimals.txt
+
+  479  Horses
+
+  480  Camels
+
+  481  Donkeys~
+
+  482  cat > PAckAnimals.txt
+
+  483  rm PackAnimals.txt 
+
+  484  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+
+  485  rm HumanFriends.txt 
+
+  486  rm PAckAnimals.txt 
+
+  487  cat > PackAnimals.txt
+
+  488  cat Pets.txt PackAnimals.txt > HumanFriends.txt
+
+  489  cat HumanFriends.txt 
+
+  490  ls
+
+  491  mkdir HumanFriends
+
+  492  mv HumanFriends.txt HumanFriends/
+
+  493  cd HumanFriends/
+
+  494  ls
+
+  495  cd ~
+
+  496  wget https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb
+
+  497  dpkg -i mysql-apt-config_0.8.29-1_all.deb
+
+  498  apt update
+
+  499  apt install mysql-server
+
+  500  wget https://github.com/atom/atom/releases/download/v1.60.0/atom-amd64.deb
+
+  501  dpkg -i atom-amd64.deb
+
+  502  dpkg -r atom
+
+  503  history
+
