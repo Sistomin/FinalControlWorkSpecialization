@@ -1,0 +1,12 @@
+3. Работа с MySQL в Linux. “Установить MySQL на вашу вычислительную машину ”
+   - Подключить дополнительный репозиторий MySQL и установить один из пакетов из этого репозитория.
+root@serg-VirtualBox:/home/serg# cd ~ root@serg-VirtualBox:~# wget https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb root@serg-VirtualBox:~# dpkg -i mysql-apt-config_0.8.29-1_all.deb
+root@serg-VirtualBox:~# apt update
+
+4. Управление deb-пакетами
+   - Установить и затем удалить deb-пакет, используя команду `dpkg`.
+root@serg-VirtualBox:~# apt update
+root@serg-VirtualBox:~# apt install mysql-server
+root@serg-VirtualBox:~# wget https://github.com/atom/atom/releases/download/v1.60.0/atom-amd64.deb
+root@serg-VirtualBox:~# dpkg -i atom-amd64.deb
+root@serg-VirtualBox:~# dpkg -r atom
